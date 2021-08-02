@@ -2,10 +2,8 @@
 
 EXPORT_DIR="/home/exporter"
 
-# .borg.sh contains: export BORG_PASSPHRASE="XXXXXXXXXXXX"
 # .telegram.sh contains: export TELEGRAM_TOKEN="XXXXXXXXXXX"
 
-source /root/.borg.sh
 source /root/.telegram.sh
 
 # make sure bork is not in use
