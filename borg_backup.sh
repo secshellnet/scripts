@@ -15,6 +15,7 @@ PATHS=(
   "/home/backups/"
   "/root/"
   "/etc/ssh/sshd_config"
+  "/etc/telegraf/telegraf.conf"
 )
 
 borg create --stats --progress -C lzma,5 /home/borg::${DATE} ${PATHS[@]}
